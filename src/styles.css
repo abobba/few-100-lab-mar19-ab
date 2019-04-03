@@ -1,3 +1,47 @@
 h1 {
-    color:red;
+    color:black;
+    margin: 2%;
+    font-variant: small-caps;
 }
+h2{
+    font-size: 1rem; 
+}
+:root {
+    --focusColor: lightblue;
+    --borderColor: #80bdff;
+}
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btn-tip {
+    border-radius: 1;
+    border-color: gray;
+    background: gray;
+    color: white;
+    font-style: bold;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem var(--focusColor);
+}
+.form-control{
+    border-color: var(--borderColor);
+}
+.error{
+    --focusColor: red;
+    --borderColor: red;
+}
+
+.input {
+    width: 530px;
+    border:.25px solid lightgray;
+    padding: 3px;
+    
+}
+
+.tip {
+    float: left;
+}
+
+
+
